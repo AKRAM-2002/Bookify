@@ -7,7 +7,7 @@ import authRoute from "./routes/auth.js";
 import usersRoute from "./routes/users.js";
 import roomsRoute from "./routes/rooms.js"
 import hotelsRoute from "./routes/hotels.js";
-
+import cors from "cors";
 
 const app = express();
 dotenv.config();
